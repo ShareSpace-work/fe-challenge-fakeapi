@@ -1,0 +1,19 @@
+{
+  "name": "fe-challenge-fakeapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "forever start index.js",
+    "stop": "forever stopall"
+  },
+  "dependencies": {
+    "fastify": "^3.23.1",
+    "fastify-static": "^4.5.0",
+    "forever": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}

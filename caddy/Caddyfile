@@ -1,0 +1,5 @@
+fe-interview-api.sharespace.work {
+        reverse_proxy host.docker.internal:3000 {
+                header_up X-Forwarded-For {header.X-Forwarded-For}
+        }
+}
