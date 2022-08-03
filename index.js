@@ -2,7 +2,7 @@ const path = require('path')
 const fastify = require('fastify')({ logger: true })
 const cors = require('@fastify/cors')
 
-await fastify.register(cors, {
+fastify.register(cors, {
     // put your options here
 })
 
