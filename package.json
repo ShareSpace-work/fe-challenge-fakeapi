@@ -9,8 +9,8 @@
     "stop": "forever stopall"
   },
   "dependencies": {
+    "@fastify/cors": "7.0.0",
     "fastify": "^3.23.1",
-    "fastify-cors": "^6.1.0",
     "fastify-static": "^4.5.0",
     "forever": "^4.0.1"
   },
