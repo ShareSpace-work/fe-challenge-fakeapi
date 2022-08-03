@@ -1,4 +1,4 @@
-fe-interview-api.sharespace.work {
+fe-interview-api.shspdev.work {
         reverse_proxy host.docker.internal:3000 {
                 header_up X-Forwarded-For {header.X-Forwarded-For}
         }
