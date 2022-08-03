@@ -10,3 +10,6 @@ services:
     volumes:
       - ./caddy:/etc/caddy
     restart: unless-stopped
+  app:
+    build: .
+    restart: unless-stopped
